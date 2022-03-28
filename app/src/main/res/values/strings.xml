@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Task04AS</string>
+    <string name="_0">0</string>
+    <string name="b_save">Сохранить</string>
+    <string name="b_Generate">Сгенерировать</string>
+    <string name="T_Total">Количество</string>
+    <string name="T_name">Имя</string>
+</resources>

@@ -1,4 +1,4 @@
-package com.TRDZ.task04
+package com.trdz.task04
 
 import org.junit.Assert
 import org.junit.Test

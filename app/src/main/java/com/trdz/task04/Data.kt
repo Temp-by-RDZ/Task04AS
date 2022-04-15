@@ -1,4 +1,4 @@
-package com.TRDZ.task04
+package com.trdz.task04
 
 data class Data(val name: String = "Unknown", var number: Int = 0) {
 

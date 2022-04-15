@@ -1,4 +1,4 @@
-package com.TRDZ.task04
+package com.trdz.task04
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry

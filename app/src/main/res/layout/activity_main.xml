@@ -12,12 +12,12 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:id="@+id/T_name"
+            android:id="@+id/t_name"
             style="@style/Basic"
             android:text="@string/T_name" />
 
         <TextView
-            android:id="@+id/T_count"
+            android:id="@+id/t_count"
             style="@style/Basic"
             android:text="@string/_0" />
 
@@ -26,17 +26,17 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="50dp">
+        android:layout_margin="@dimen/margin_normal">
 
         <EditText
-            android:id="@+id/T_col"
+            android:id="@+id/t_col"
             style="@style/Basic"
             android:hint="@string/T_Total"
             android:importantForAutofill="no"
             android:inputType="numberSigned" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/B_gen"
+            android:id="@+id/b_gen"
             style="@style/Basic"
             android:text="@string/b_Generate" />
     </LinearLayout>
@@ -46,12 +46,12 @@
         android:layout_height="wrap_content">
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/B_save"
+            android:id="@+id/b_save"
             style="@style/Basic"
             android:text="@string/b_save" />
 
         <TextView
-            android:id="@+id/T_save"
+            android:id="@+id/t_save"
             style="@style/Basic"
             android:text="@string/_0" />
     </LinearLayout>

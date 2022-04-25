@@ -30,18 +30,18 @@ class MainActivity : AppCompatActivity() {
 	}
 
 	override fun onSaveInstanceState(outState: Bundle) {
-		outState.putCharSequence("NAME", binding.tName.text)
-		outState.putCharSequence("NUMB", binding.tCount.text)
-		outState.putCharSequence("SAVE", binding.tSave.text)
+		outState.putCharSequence(KEY_NAME, binding.tName.text)
+		outState.putCharSequence(KEY_NUMB, binding.tCount.text)
+		outState.putCharSequence(KEY_SAVE, binding.tSave.text)
 		super.onSaveInstanceState(outState)
 	}
 
 	override fun onRestoreInstanceState(savedInstanceState: Bundle) {
 		super.onRestoreInstanceState(savedInstanceState)
 		with(binding) {
-			tName.text = savedInstanceState.getCharSequence("NAME")
-			tCount.text = savedInstanceState.getCharSequence("NUMB")
-			tSave.text = savedInstanceState.getCharSequence("SAVE")
+			tName.text = savedInstanceState.getCharSequence(KEY_NAME)
+			tCount.text = savedInstanceState.getCharSequence(KEY_NUMB)
+			tSave.text = savedInstanceState.getCharSequence(KEY_SAVE)
 		}
 		alpha.number = binding.tCount.text.toString().toInt()
 	}
